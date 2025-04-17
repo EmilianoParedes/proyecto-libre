@@ -50,6 +50,11 @@ nav ul li a {
     text-decoration: none;
 }
 
+main {
+    margin-left: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
 .carousel {
     position: relative;
     width: 100%;
@@ -210,7 +215,7 @@ nav ul li a {
     color: #f5edcd;
     font-family: sans-serif;
     padding: 30px 20px 10px;
-    margin-top: 40px;
+    margin-top: 0px;
   }
   
   .footer-contenedor {

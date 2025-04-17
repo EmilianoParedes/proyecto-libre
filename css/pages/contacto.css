@@ -50,14 +50,10 @@ nav ul li a {
     text-decoration: none;
 }
 
-main {
+.main {
     margin-left: 20px;
     padding: 20px;
     background-color: rgba(246, 245, 236, 1);
-}
-
-.main {
-    padding: 20px;
 }
 
 .form-section h2 {
@@ -215,7 +211,7 @@ button:hover {
     color: #f5edcd;
     font-family: sans-serif;
     padding: 30px 20px 10px;
-    margin-top: 40px;
+    margin-top: 0px;
 }
 
 .footer-contenedor {
