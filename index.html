@@ -32,25 +32,41 @@
         </nav>
     </header>
     <main>
-        <section>
-            <div class="carrusel-container">
-                <span id="imagen-1"></span>
-                <span id="imagen-2"></span>
-                <span id="imagen-3"></span>
-                <div class="carrusel-imagen imagen-1">
-                    <a class="flecha-prev flecha" href="#imagen-3"></a>
-                    <a class="flecha-next flecha" href="#imagen-2"></a>
+        <div class="carousel">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            
+            <div class="carousel-slides">
+                <div class="slide">
+                    <img src="/images/inicio-imagen1.jpg" alt="Imagen de presentación de la heladería">
+                    <div class="message-overlay">
+                        <h2></h2>
+                    </div>
                 </div>
-                <div class="carrusel-imagen imagen-2">
-                    <a class="flecha-prev flecha" href="#imagen-1"></a>
-                    <a class="flecha-next flecha" href="#imagen-3"></a>
+                <div class="slide">
+                    <img src="/images/inicio-imagen2.jpg" alt="Imagen de sabores de helados">
                 </div>
-                <div class="carrusel-imagen imagen-3">
-                    <a class="flecha-prev flecha" href="#imagen-2"></a>
-                    <a class="flecha-next flecha" href="#imagen-1"></a>
+                <div class="slide">
+                    <img src="/images/inicio-imagen3.png" alt="Helados de sabores de helados">
                 </div>
             </div>
-        </section>
+            <!-- Circular con las flechas -->
+            <label for="slide3" class="arrow arrow-left" id="slide1-left">&#10094;</label>
+            <label for="slide2" class="arrow arrow-right" id="slide1-right">&#10095;</label>
+            
+            <label for="slide1" class="arrow arrow-left" id="slide2-left">&#10094;</label>
+            <label for="slide3" class="arrow arrow-right" id="slide2-right">&#10095;</label>
+            
+            <label for="slide2" class="arrow arrow-left" id="slide3-left">&#10094;</label>
+            <label for="slide1" class="arrow arrow-right" id="slide3-right">&#10095;</label>
+            
+            <div class="carousel-nav">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+            </div>
+        </div>
     </main>
 </body>
 </html>
