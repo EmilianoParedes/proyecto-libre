@@ -354,8 +354,8 @@ main {
 }
 
 .offer-img img {
-    max-width: 100%;
-    height: auto;
+    width: 430px;
+    height: 300px;
     border-radius: 8px;
 }
 
