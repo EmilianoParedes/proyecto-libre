@@ -16,7 +16,7 @@
     font-size: 1rem;
     line-height: 1.6;
     white-space: pre-line;
-    color: #333;
+    color: rgb(0, 0, 0);
   }
   
   .foto-heladeria img{
@@ -49,5 +49,5 @@
   .texto-ubicacion p {
     flex: 2;
     font-size: 1rem;
-    color: #555;
+    color: rgb(0, 0, 0);
   }
