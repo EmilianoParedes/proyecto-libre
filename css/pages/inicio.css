@@ -209,6 +209,193 @@ main {
     pointer-events: auto;
 }
 
+/* Sección novedades y ofertas */
+.news-section {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #d05353;
+    font-size: 2.5rem;
+    position: relative;
+}
+
+.section-title::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background-color: #d05353;
+}
+
+.news-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.news-card {
+    width: 30%;
+    min-width: 280px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.news-card:hover {
+    transform: translateY(-10px);
+}
+
+.news-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.news-content {
+    padding: 20px;
+}
+
+.news-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.news-date {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.news-text {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.news-btn {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #d05353;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.news-btn:hover {
+    background-color: #b83e3e;
+}
+
+.offers-section {
+    padding: 50px 0;
+    background-color: #f8f5f5;
+}
+
+.offer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.offer-banner {
+    width: 100%;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%);
+}
+
+.offer-content {
+    flex: 1;
+    min-width: 280px;
+    padding-right: 20px;
+}
+
+.offer-title {
+    font-size: 2rem;
+    color: #d05353;
+    margin-bottom: 15px;
+}
+
+.offer-text {
+    color: #555;
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.offer-img {
+    flex: 1;
+    min-width: 280px;
+    text-align: center;
+}
+
+.offer-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.offer-btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #d05353;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.offer-btn:hover {
+    background-color: #b83e3e;
+}
+
+@media (max-width: 768px) {
+    .news-card {
+        width: 45%;
+    }
+    
+    .offer-banner {
+        flex-direction: column;
+    }
+    
+    .offer-content, .offer-img {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .news-card {
+        width: 100%;
+    }
+}
+
 
 .footer {
     background-color: #ba4a4d;
