@@ -13,7 +13,7 @@
   
   .texto-nosotros p {
     flex: 1;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.6;
     white-space: pre-line;
     color: rgb(0, 0, 0);
@@ -48,6 +48,6 @@
   
   .texto-ubicacion p {
     flex: 2;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: rgb(0, 0, 0);
   }
