@@ -301,12 +301,12 @@ main {
     background-color: #b83e3e;
 }
 
-.offers-section {
+.oferta-section {
     padding: 50px 0;
     background-color: #f8f5f5;
 }
 
-.offer-container {
+.oferta-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -315,7 +315,7 @@ main {
     padding: 0 20px;
 }
 
-.offer-banner {
+.oferta-banner {
     width: 100%;
     padding: 30px;
     background-color: #fff;
@@ -328,38 +328,38 @@ main {
     background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%);
 }
 
-.offer-content {
+.oferta-content {
     flex: 1;
     min-width: 280px;
     padding-right: 20px;
 }
 
-.offer-title {
+.oferta-title {
     font-size: 2rem;
     color: #d05353;
     margin-bottom: 15px;
 }
 
-.offer-text {
+.oferta-text {
     color: #555;
     margin-bottom: 25px;
     font-size: 1.1rem;
     line-height: 1.6;
 }
 
-.offer-img {
+.oferta-img {
     flex: 1;
     min-width: 280px;
     text-align: center;
 }
 
-.offer-img img {
+.oferta-img img {
     width: 410px;
     height: 300px;
     border-radius: 8px;
 }
 
-.offer-btn {
+.oferta-btn {
     display: inline-block;
     padding: 10px 25px;
     background-color: #d05353;
@@ -370,7 +370,7 @@ main {
     transition: background-color 0.3s ease;
 }
 
-.offer-btn:hover {
+.oferta-btn:hover {
     background-color: #b83e3e;
 }
 
@@ -379,11 +379,11 @@ main {
         width: 45%;
     }
     
-    .offer-banner {
+    .oferta-banner {
         flex-direction: column;
     }
     
-    .offer-content, .offer-img {
+    .oferta-content, .oferta-img {
         width: 100%;
         padding: 0;
         margin-bottom: 20px;
