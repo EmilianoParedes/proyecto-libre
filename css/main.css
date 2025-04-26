@@ -2,6 +2,7 @@
 @import '/css/pages/inicio.css';
 @import '/css/pages/nosotros.css';
 @import '/css/pages/contacto.css';
+@import '/css/pages/pedir.css';
 
 /* Base */
 @import '/css/base/reset.css';
