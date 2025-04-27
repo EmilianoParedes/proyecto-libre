@@ -292,147 +292,147 @@
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0;
-    transition: opacity 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .imagen-sabores .img-chocolate-suizo {
-    background-image: url('');
+    background-image: url('/images/sabores-chocolate-suizo.webp');
 }
 
 .imagen-sabores .img-chocolate-blanco {
-    background-image: url('');
+    background-image: url('/images/sabores-chocolate-blanco.webp');
 }
 
 .imagen-sabores .img-chocolate-oreo {
-    background-image: url('');
+    background-image: url('/images/sabores-chocolate-oreos.webp');
 }
 
 .imagen-sabores .img-chocolate-almendras {
-    background-image: url('');
+    background-image: url('/images/sabores-chocolate-almendras.webp');
 }
 
 .imagen-sabores .img-cremas-vainilla {
-    background-image: url('');
+    background-image: url('/images/sabores-vainilla.webp');
 }
 
 .imagen-sabores .img-cremas-frambuesa {
-    background-image: url('');
+    background-image: url('/images/sabores-frambuesa.webp');
 }
 
 .imagen-sabores .img-cremas-cafe {
-    background-image: url('');
+    background-image: url('/images/sabores-crema-cafe.webp');
 }
 
 .imagen-sabores .img-limon {
-    background-image: url('');
+    background-image: url('/images/sabores-limon.webp');
 }
 
 .imagen-sabores .img-fresa {
-    background-image: url('');
+    background-image: url('/images/sabores-frutilla.webp');
 }
 
 .imagen-sabores .img-kiwi {
-    background-image: url('');
+    background-image: url('/images/sabores-kiwi.webp');
 }
 
 .imagen-sabores .img-durazno {
-    background-image: url('');
+    background-image: url('/images/sabores-durazno.webp');
 }
 
 .imagen-sabores .img-frambuesa {
-    background-image: url('');
+    background-image: url('/images/sabores-frambuesa.webp');
 }
 
 .imagen-sabores .img-mango {
-    background-image: url('');
+    background-image: url('/images/sabores-mango.webp');
 }
 
 .imagen-sabores .img-dulce-clasico {
-    background-image: url('');
+    background-image: url('/images/sabores-dulce-leche.webp');
 }
 
 .imagen-sabores .img-dulce-chocolate {
-    background-image: url('');
+    background-image: url('/images/sabores-dulce-chocolate.webp');
 }
 
 
 .imagen-sabores .img-especial-moca {
-    background-image: url('');
+    background-image: url('/images/sabores-moca.webp');
 }
 
 .imagen-sabores .img-especial-cafeexpreso {
-    background-image: url('');
+    background-image: url('/images/sabores-cafe-expreso.webp');
 }
 
 .sabores-container:has(.lista-sabores ul li:hover) .imagen-sabores .img-default {
     opacity: 0;
 }
 
-.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-chocolate-suizo {
+.sabores-container:has(.lista-sabores ul li:hover[data-img="/images/sabores-chocolate-suizo.webp"]) .imagen-sabores .img-chocolate-suizo {
     opacity: 1;
 }
 
-.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-chocolate-blanco {
+.sabores-container:has(.lista-sabores ul li:hover[data-img="/images/sabores-chocolate-blanco.webp"]) .imagen-sabores .img-chocolate-blanco {
     opacity: 1;
 }
 
-.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-chocolate-oreo {
+.sabores-container:has(.lista-sabores ul li:hover[data-img="/images/sabores-chocolate-oreos.webp"]) .imagen-sabores .img-chocolate-oreo {
     opacity: 1;
 }
 
-.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-chocolate-almendras {
+.sabores-container:has(.lista-sabores ul li:hover[data-img="/images/sabores-chocolate-almendras.webp"]) .imagen-sabores .img-chocolate-almendras {
     opacity: 1;
 }
 
-.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-cremas-vainilla {
+.sabores-container:has(.lista-sabores ul li:hover[data-img="/images/sabores-vainilla.webp"]) .imagen-sabores .img-cremas-vainilla {
     opacity: 1;
 }
 
-.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-cremas-frambuesa {
+.sabores-container:has(.lista-sabores ul li:hover[data-img="/images/sabores-frambuesa.webp"]) .imagen-sabores .img-cremas-frambuesa {
     opacity: 1;
 }
 
-.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-cremas-cafe {
+.sabores-container:has(.lista-sabores ul li:hover[data-img="/images/sabores-crema-cafe.webp"]) .imagen-sabores .img-cremas-cafe {
     opacity: 1;
 }
 
-.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-limon {
+.sabores-container:has(.lista-sabores ul li:hover[data-img="/images/sabores-limon.webp"]) .imagen-sabores .img-limon {
     opacity: 1;
 }
 
-.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-kiwi {
+.sabores-container:has(.lista-sabores ul li:hover[data-img="/images/sabores-kiwi.webp"]) .imagen-sabores .img-kiwi {
     opacity: 1;
 }
 
-.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-fresa {
+.sabores-container:has(.lista-sabores ul li:hover[data-img="/images/sabores-frutilla.webp"]) .imagen-sabores .img-fresa {
     opacity: 1;
 }
 
-.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-durazno {
+.sabores-container:has(.lista-sabores ul li:hover[data-img="/images/sabores-durazno.webp"]) .imagen-sabores .img-durazno {
     opacity: 1;
 }
 
-.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-frambuesa {
+.sabores-container:has(.lista-sabores ul li:hover[data-img="/images/sabores-frambuesa.webp"]) .imagen-sabores .img-frambuesa {
     opacity: 1;
 }
 
-.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-mango {
+.sabores-container:has(.lista-sabores ul li:hover[data-img="/images/sabores-mango.webp"]) .imagen-sabores .img-mango {
     opacity: 1;
 }
 
-.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-dulce-clasico {
+.sabores-container:has(.lista-sabores ul li:hover[data-img="/images/sabores-dulce-leche.webp"]) .imagen-sabores .img-dulce-clasico {
     opacity: 1;
 }
 
-.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-dulce-chocolate {
+.sabores-container:has(.lista-sabores ul li:hover[data-img="/images/sabores-dulce-chocolate.webp"]) .imagen-sabores .img-dulce-chocolate {
     opacity: 1;
 }
 
-.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-especial-moca {
+.sabores-container:has(.lista-sabores ul li:hover[data-img="/images/sabores-moca.webp"]) .imagen-sabores .img-especial-moca {
     opacity: 1;
 }
 
-.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-especial-cafeexpreso {
+.sabores-container:has(.lista-sabores ul li:hover[data-img="/images/sabores-cafe-expreso.webp"]) .imagen-sabores .img-especial-cafeexpreso {
     opacity: 1;
 }
 
