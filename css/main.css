@@ -1,12 +1,12 @@
 /* Pages */
-@import '/css/pages/inicio.css';
+@import '../css/pages/inicio.css';
 @import '/css/pages/nosotros.css';
 @import '/css/pages/contacto.css';
 @import '/css/pages/pedir.css';
 @import '/css/pages/productos.css';
 
 /* Base */
-@import '/css/base/reset.css';
+@import '../css/base/reset.css';
 
 /* Componentes */
 @import '/css/components/scrollbar.css';
