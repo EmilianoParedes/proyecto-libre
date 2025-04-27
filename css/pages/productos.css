@@ -183,11 +183,6 @@
     display: none;
 }
 
-.sublista {
-    display: none;
-    padding-left: 20px;
-}
-
 .sublista li {
     font-weight: normal;
     color: #333;
@@ -196,6 +191,7 @@
 
 .interruptor:checked+.sublista {
     display: block;
+    margin-top: 10px;
 }
 
 
