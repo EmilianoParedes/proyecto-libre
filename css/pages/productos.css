@@ -11,6 +11,13 @@
 .productos {
     width: 55%;
 }
+
+.titulo-icono{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
 .titulo {
     font-size: 30px;
     font-style: oblique;
@@ -18,6 +25,11 @@
     margin-bottom: 20px;
 }
 
+.titulo-icono img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
 .rejilla-productos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -305,7 +317,6 @@
 .imagen-sabores .img-chocolate-almendras {
     background-image: url('');
 }
-
 
 .imagen-sabores .img-cremas-vainilla {
     background-image: url('');
