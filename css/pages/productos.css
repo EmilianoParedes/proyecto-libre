@@ -31,6 +31,14 @@
     margin-right: 10px;
 }
 
+.texto-productos {
+    font-size: 18px;
+    font-style: oblique;
+    color: #000000;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
 .rejilla-productos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
