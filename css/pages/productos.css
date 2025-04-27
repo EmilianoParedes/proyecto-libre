@@ -1,0 +1,469 @@
+.contenido {
+    padding: 40px;
+}
+
+.seccion-doble {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.productos {
+    width: 55%;
+}
+.titulo {
+    font-size: 30px;
+    font-style: oblique;
+    color: #793c3c;
+    margin-bottom: 20px;
+}
+
+.rejilla-productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 20px;
+    border-right: 1px solid #ccc;
+    /* Línea vertical derecha */
+}
+
+.rejilla-productos .elemento {
+    text-align: center;
+}
+
+.rejilla-productos img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 200px;
+}
+
+
+.sabores {
+    width: 45%;
+}
+
+.lista-sabores ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.lista-sabores li {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #444;
+}
+
+.sublista {
+    display: none;
+    padding-left: 20px;
+}
+
+.sublista li {
+    font-weight: normal;
+    color: #333;
+}
+
+.interruptor {
+    display: none;
+}
+
+.interruptor:checked+.sublista {
+    display: block;
+}
+
+.sabores label {
+    cursor: pointer;
+    font-weight: bold;
+    color: #793c3c;
+    font-size: 20px;
+    position: relative;
+    padding-right: 25px;
+}
+
+.sabores label::after {
+    content: "▼";
+    position: absolute;
+    right: 0;
+    font-size: 18px;
+    color: #793c3c;
+    transition: transform 0.3s ease;
+}
+
+.interruptor:checked+.sublista+label::after {
+    content: "▲";
+    transform: rotate(90deg);
+}
+
+.contenido {
+    padding: 40px;
+}
+
+.seccion-doble {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.productos {
+    width: 55%;
+}
+
+.rejilla-productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.rejilla-productos .elemento {
+    text-align: center;
+}
+
+.rejilla-productos img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.sabores {
+    width: 45%;
+}
+
+
+.sabores-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.lista-sabores ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.lista-sabores li {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #444;
+}
+
+
+.lista-sabores label {
+    cursor: pointer;
+    font-weight: bold;
+    color: #793c3c;
+    font-size: 20px;
+    position: relative;
+    padding-right: 25px;
+}
+
+.lista-sabores label::after {
+    content: "▼";
+    position: absolute;
+    right: 0;
+    font-size: 18px;
+    color: #793c3c;
+    transition: transform 0.3s ease;
+}
+
+.interruptor {
+    display: none;
+}
+
+.sublista {
+    display: none;
+    padding-left: 20px;
+}
+
+.sublista li {
+    font-weight: normal;
+    color: #333;
+    cursor: pointer;
+}
+
+
+.interruptor:checked+.sublista {
+    display: block;
+}
+
+
+.interruptor:checked+.sublista+label::after {
+    content: "▲";
+    transform: rotate(180deg);
+}
+
+
+.sabores {
+    width: 45%;
+}
+
+
+.sabores-container {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+
+.lista-sabores ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.lista-sabores li {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #444;
+}
+
+.lista-sabores label {
+    cursor: pointer;
+    font-weight: bold;
+    color: #793c3c;
+    font-size: 20px;
+    position: relative;
+    padding-right: 25px;
+}
+
+.lista-sabores label::after {
+    content: "▼";
+    position: absolute;
+    right: 0;
+    font-size: 18px;
+    color: #793c3c;
+    transition: transform 0.3s ease;
+}
+
+.interruptor {
+    display: none;
+}
+
+.sublista {
+    display: none;
+    padding-left: 20px;
+}
+
+.sublista li {
+    font-weight: normal;
+    color: #333;
+    cursor: pointer;
+}
+
+.imagen-sabores img {
+    border-radius: 40px !important;
+}
+
+.interruptor:checked+.sublista {
+    display: block;
+}
+
+.interruptor:checked+.sublista+label::after {
+    content: "▲";
+    transform: rotate(180deg);
+}
+
+
+.imagen-sabores {
+    position: relative;
+    flex: 1;
+    margin-top: 10%;
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 20%;
+    margin-left: 10px;
+}
+
+.imagen-sabores .imagen-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.imagen-sabores .img-chocolate-suizo {
+    background-image: url('');
+}
+
+.imagen-sabores .img-chocolate-blanco {
+    background-image: url('');
+}
+
+.imagen-sabores .img-chocolate-oreo {
+    background-image: url('');
+}
+
+.imagen-sabores .img-chocolate-almendras {
+    background-image: url('');
+}
+
+
+.imagen-sabores .img-cremas-vainilla {
+    background-image: url('');
+}
+
+.imagen-sabores .img-cremas-frambuesa {
+    background-image: url('');
+}
+
+.imagen-sabores .img-cremas-cafe {
+    background-image: url('');
+}
+
+.imagen-sabores .img-limon {
+    background-image: url('');
+}
+
+.imagen-sabores .img-fresa {
+    background-image: url('');
+}
+
+.imagen-sabores .img-kiwi {
+    background-image: url('');
+}
+
+.imagen-sabores .img-durazno {
+    background-image: url('');
+}
+
+.imagen-sabores .img-frambuesa {
+    background-image: url('');
+}
+
+.imagen-sabores .img-mango {
+    background-image: url('');
+}
+
+.imagen-sabores .img-dulce-clasico {
+    background-image: url('');
+}
+
+.imagen-sabores .img-dulce-chocolate {
+    background-image: url('');
+}
+
+
+.imagen-sabores .img-especial-moca {
+    background-image: url('');
+}
+
+.imagen-sabores .img-especial-cafeexpreso {
+    background-image: url('');
+}
+
+.sabores-container:has(.lista-sabores ul li:hover) .imagen-sabores .img-default {
+    opacity: 0;
+}
+
+.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-chocolate-suizo {
+    opacity: 1;
+}
+
+.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-chocolate-blanco {
+    opacity: 1;
+}
+
+.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-chocolate-oreo {
+    opacity: 1;
+}
+
+.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-chocolate-almendras {
+    opacity: 1;
+}
+
+.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-cremas-vainilla {
+    opacity: 1;
+}
+
+.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-cremas-frambuesa {
+    opacity: 1;
+}
+
+.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-cremas-cafe {
+    opacity: 1;
+}
+
+.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-limon {
+    opacity: 1;
+}
+
+.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-kiwi {
+    opacity: 1;
+}
+
+.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-fresa {
+    opacity: 1;
+}
+
+.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-durazno {
+    opacity: 1;
+}
+
+.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-frambuesa {
+    opacity: 1;
+}
+
+.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-mango {
+    opacity: 1;
+}
+
+.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-dulce-clasico {
+    opacity: 1;
+}
+
+.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-dulce-chocolate {
+    opacity: 1;
+}
+
+.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-especial-moca {
+    opacity: 1;
+}
+
+.sabores-container:has(.lista-sabores ul li:hover[data-img=""]) .imagen-sabores .img-especial-cafeexpreso {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .contenido {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+    .productos,
+    .sabores {
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .lista-sabores label {
+        font-size: 12px;
+    }
+
+    .rejilla-productos {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+
+
+    .sabores-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lista-sabores,
+    .imagen-sabores {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+}
