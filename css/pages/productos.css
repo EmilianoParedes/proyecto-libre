@@ -73,7 +73,9 @@
 
 .sublista li {
     font-weight: normal;
-    color: #333;
+    color: #000000;
+    list-style-type: disc;
+    margin-left: 20px;
 }
 
 .interruptor {
@@ -185,7 +187,7 @@
 
 .sublista li {
     font-weight: normal;
-    color: #333;
+    color: #000000;
     cursor: pointer;
 }
 
@@ -241,17 +243,6 @@
 
 .interruptor {
     display: none;
-}
-
-.sublista {
-    display: none;
-    padding-left: 20px;
-}
-
-.sublista li {
-    font-weight: normal;
-    color: #333;
-    cursor: pointer;
 }
 
 .imagen-sabores img {
