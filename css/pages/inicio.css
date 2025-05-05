@@ -55,7 +55,7 @@ main {
     padding: 0px 0px 0px 0px;
 }
 
-.carousel {
+.carrusel {
     position: relative;
     width: 100%;
     height: 600px;
@@ -85,7 +85,7 @@ main {
     object-fit: cover;
 }
 
-.message-overlay {
+.mensaje-superpuesto {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -99,12 +99,12 @@ main {
     max-width: 700px;
 }
 
-.message-overlay h2 {
+.mensaje-superpuesto h2 {
     font-size: 2.5rem;
     margin-bottom: 15px;
 }
 
-.carousel-nav {
+.carrusel-nav {
     position: absolute;
     bottom: 20px;
     left: 50%;
@@ -113,7 +113,7 @@ main {
     z-index: 10;
 }
 
-.carousel-nav label {
+.carrusel-nav label {
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -138,6 +138,8 @@ main {
     justify-content: center;
     height: 80px;
     z-index: 10;
+    opacity: 0;
+    pointer-events: none;
 }
 
 .arrow-left {
@@ -148,7 +150,7 @@ main {
     right: 15px;
 }
 
-.carousel input {
+.carrusel input {
     display: none;
 }
 
@@ -159,9 +161,9 @@ main {
     z-index: 2;
 }
 
-#slide1:checked ~ .carousel-nav label:nth-child(1),
-#slide2:checked ~ .carousel-nav label:nth-child(2),
-#slide3:checked ~ .carousel-nav label:nth-child(3) {
+#slide1:checked ~ .carrusel-nav label:nth-child(1),
+#slide2:checked ~ .carrusel-nav label:nth-child(2),
+#slide3:checked ~ .carrusel-nav label:nth-child(3) {
     background-color: white;
 }
 
@@ -192,11 +194,6 @@ main {
 
 #slide3:checked ~ .arrow.arrow-right {
     z-index: 10;
-}
-
-.arrow {
-    opacity: 0;
-    pointer-events: none;
 }
 
 #slide1:checked ~ #slide1-left,
@@ -479,7 +476,6 @@ main {
   .footer-nav ul {
     list-style: none;
     padding: 0;
- 
     display: flex;
     justify-content: left;
     gap: 0px;
@@ -498,7 +494,7 @@ main {
   
   .footer-nav li {
     padding: 10px;
-   color: black;
+    color: black;
     list-style-type: none;
    
     
@@ -506,8 +502,7 @@ main {
   
   .footer-nav li:hover {
     background-color: rgb(98, 47, 80);
-   padding: 8px;
-  
+    padding: 8px;
     border-radius: 14px;
   }
   
@@ -522,10 +517,6 @@ main {
     margin-right: 18px; 
   }
   
-
-
-
-
   @media (max-width: 1024px) {
     header {
         padding: 10px 20px;
